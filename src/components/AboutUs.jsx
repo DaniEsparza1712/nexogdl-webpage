@@ -1,5 +1,6 @@
 import '../styles/Styles.css'
 import { motion } from 'framer-motion';
+import logo from '../assets/logos/NEXO-2.png'
 
 function AboutUs(){
     return(

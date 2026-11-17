@@ -1,10 +1,5 @@
 import '../styles/Styles.css'
-import { SocialIcon } from 'react-social-icons/component'
-import 'react-social-icons/linkedin'
-import 'react-social-icons/instagram'
-import 'react-social-icons/x'
-import { Link } from 'react-router-dom'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 function Footer(){
     const navigate = useNavigate();

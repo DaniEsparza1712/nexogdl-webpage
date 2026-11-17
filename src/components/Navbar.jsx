@@ -1,5 +1,5 @@
 import '../styles/Styles.css'
-import logo from '../assets/logos/Nexo-2.png'
+import logo from '../assets/logos/NEXO-2.png'
 import { Link } from 'react-router-dom';
 
 function Navbar(){
