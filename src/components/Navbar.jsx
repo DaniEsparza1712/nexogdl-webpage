@@ -10,8 +10,8 @@ function Navbar(){
             {/*--Texto--*/}
             <div style={{display: 'flex', gap: '24px'}}>
                 <Link to='/proyectos'><p className='navbar-text'>Proyectos</p></Link>
-                <Link to='/calendarios'><p className='navbar-text'>Calendarios</p></Link>
-                <Link to='/about'><p className='navbar-text'>Conócenos</p></Link>
+                <Link to='/calendarios'><p className='navbar-text'>Calendario</p></Link>
+                <Link to='/about'><p className='navbar-text'>Conoce más</p></Link>
             </div>
         </div>
     );
