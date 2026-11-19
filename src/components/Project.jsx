@@ -240,28 +240,6 @@ function Project() {
                     </div>
                 )}
             </motion.section>
-            <motion.section
-                className='project-donate'
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ duration: 0.5, delay: 0.1 }}>
-                <h2>Donativo</h2>
-                <form className='donate-form' onSubmit={(event) => event.preventDefault()}>
-                    <label>
-                        Nombre
-                        <input type='text' name='name' autoComplete='name' />
-                    </label>
-                    <label>
-                        Correo
-                        <input type='email' name='email' autoComplete='email' />
-                    </label>
-                    <label>
-                        Monto
-                        <input type='number' name='amount' min='1' inputMode='decimal' />
-                    </label>
-                    <button type='submit' className='btn'>Donar</button>
-                </form>
-            </motion.section>
         </>
     )
 }
